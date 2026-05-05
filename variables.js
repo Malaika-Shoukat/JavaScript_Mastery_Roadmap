@@ -49,3 +49,15 @@ console.log(str[0]);
 console.log(str.length);
 console.log(typeof str);
 console.log(typeof num);
+
+  //_______ string Methods ---->functions / specific task  / build in (js)_______
+//  toUpperCase, tolowerCase, Slice, replace,trim, concat,index[0]
+let sentence="The quick brown fox jumps over a lazy dog";
+console.log(sentence);
+console.log("length="+sentence.length);
+console.log(sentence.toUpperCase());
+console.log(sentence.toLowerCase());
+console.log(sentence.slice(4,20));
+console.log(sentence[4]);
+console.log(sentence.trim().length);
+console.log(sentence.concat("------->you have to remember this sencence!"));
